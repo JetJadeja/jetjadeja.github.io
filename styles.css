@@ -1,116 +1,51 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#preamble {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
 .title {
-  text-align: center;
-  margin-bottom: 0.2em;
-}
-
-.subtitle {
-  text-align: center;
-  font-size: medium;
+  font-size: 3rem;
   font-weight: bold;
+  color: #000;
+}
+
+.content {
+  margin: 0 auto;
+  width: 70%;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.content ul {
   margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 20px;
 }
 
-body {
-  line-height: 1.6;
-  font-size: 18px;
-  padding: 0 10px;
-  margin: 60px auto;
-  max-width: 700px;
+.content li {
+  margin-bottom: 10px;
 }
 
-h2,
-h2,
-h3 {
-  line-height: 1.2;
+.contact {
+  padding-top: 40px;
+  font-size: 1.2rem;
 }
 
-h2 {
-  font-style: italic;
-  font-size: 18px;
-}
-
-a:link,
-a:visited {
-  color: blue;
-}
-
-code,
-.code {
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 1.125rem;
-  line-height: 1.6;
-  padding: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0;
-  font-size: 85%;
-  background-color: rgba(0, 0, 0, 0.04);
-  border-radius: 3px;
-}
-.subtitle {
-  text-align: center;
-  font-size: medium;
-  font-weight: bold;
+.contact ul {
+  padding-left: 0;
   margin-top: 0;
-}
-
-body {
-  line-height: 1.6;
-  font-size: 18px;
-  padding: 0 10px;
-  margin: 60px auto;
-  max-width: 700px;
-}
-
-h2,
-h2,
-h3 {
-  line-height: 1.2;
-}
-
-h2 {
-  font-style: italic;
-  font-size: 18px;
-}
-
-a:link,
-a:visited {
-  color: blue;
-}
-
-code,
-.code {
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 1.125rem;
-  line-height: 1.6;
-  padding: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0;
-  font-size: 85%;
-  background-color: rgba(0, 0, 0, 0.04);
-  border-radius: 3px;
-}
-
-footer {
-  background-color: #f3f3f3;
-  margin-top: 10px;
-  padding: 10px;
-}
-
-.footer ul {
+  margin-bottom: 0;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
-.footer li {
-  display: inline-block;
-  padding: 0 5px;
-}
-
-.footer a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+.contact li {
+  margin-bottom: 10px;
 }
