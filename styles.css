@@ -63,3 +63,7 @@ footer {
 .footer-content {
   font-size: 1.2rem;
 }
+
+.subtitle {
+  align-items: center;
+}
