@@ -1,6 +1,7 @@
 .title {
   text-align: center;
   margin-bottom: 0.3em;
+  margin-top: 0;
   font-size: 54px;
 }
 
@@ -67,4 +68,18 @@ footer {
 .subtitle {
   align-items: center;
   font-style: oblique;
+}
+
+.profile-picture {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.profile-picture img {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0rem;
 }
