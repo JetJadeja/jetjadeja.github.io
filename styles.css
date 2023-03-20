@@ -83,3 +83,13 @@ footer {
   border-radius: 50%;
   margin-bottom: 0rem;
 }
+
+header {
+  padding: 20px;
+  text-align: right;
+}
+
+nav a {
+  font-size: 1.2rem;
+  margin-left: 15px;
+}
